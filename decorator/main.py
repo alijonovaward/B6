@@ -29,4 +29,10 @@ def decorator(func: Callable):
 def myfunc(n):
     return f"{n}"
 
-print(myfunc("Hello Javohir"))
+s = "1#2#3#"
+res = 0
+
+for x in s.split('#'):
+    print(x)
+
+print(res)
